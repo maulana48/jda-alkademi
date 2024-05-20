@@ -1,0 +1,423 @@
+$list_user = [
+    [
+        'name' => 'Fulan',
+        'email' => 'fulan@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 1,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Fulanah',
+        'email' => 'fulanah@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'P',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 2,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Ardi',
+        'email' => 'ardi@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 2,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Samsudin',
+        'email' => 'samsudin@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 2,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Eko',
+        'email' => 'eko@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 2,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Sugeng',
+        'email' => 'sugeng@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Alif',
+        'email' => 'alif@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Siti',
+        'email' => 'siti@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'P',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Juminten',
+        'email' => 'juminten@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'P',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Paijo',
+        'email' => 'paijo@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Saifuddin',
+        'email' => 'saifuddin@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Daffa',
+        'email' => 'daffa@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Akbar',
+        'email' => 'akbar@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Rafli',
+        'email' => 'rafli@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'L',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+    [
+        'name' => 'Rini',
+        'email' => 'rini@gmail.com',
+        'password' => bcrypt('password'),
+        'gender' => 'P',
+        'photo' => 'users/profiles/dolor.png',
+        'address' => 'Jl. Cisitu Indah VI no 6',
+        'role' => 3,
+        'created_at' => now(),
+        'updated_at' => now()
+    ],
+];
+
+
+
+
+
+$list_role = [
+    [
+        'name' => 'Admin',
+    ],
+    [
+        'name' => 'Technician',
+    ],
+    [
+        'name' => 'Client',
+    ],
+];
+
+
+
+
+$list_ac = [
+    [
+        'name' => 'LG-1',
+        'brand' => 'LG',
+        'pk' => 0.5,
+        'price' => 50000,
+    ],
+    [
+        'name' => 'Sharp-2',
+        'brand' => 'Sharp',
+        'pk' => 1,
+        'price' => 60000,
+    ],
+    [
+        'name' => 'Panasonic-3',
+        'brand' => 'Panasonic',
+        'pk' => 2,
+        'price' => 70000,
+    ],
+    [
+        'name' => 'Samsung-4',
+        'brand' => 'Samsung',
+        'pk' => 0.5,
+        'price' => 80000,
+    ],
+    [
+        'name' => 'Daikin-5',
+        'brand' => 'Daikin',
+        'pk' => 1,
+        'price' => 90000,
+    ],
+    [
+        'name' => 'Gree-6',
+        'brand' => 'Gree',
+        'pk' => 2,
+        'price' => 100000,
+    ],
+    [
+        'name' => 'Polytron-7',
+        'brand' => 'Polytron',
+        'pk' => 0.5,
+        'price' => 110000,
+    ],
+    [
+        'name' => 'Electrolux-8',
+        'brand' => 'Electrolux',
+        'pk' => 1,
+        'price' => 120000,
+    ],
+    [
+        'name' => 'Aqua-9',
+        'brand' => 'Aqua',
+        'pk' => 2,
+        'price' => 130000,
+    ],
+    [
+        'name' => 'Midea-10',
+        'brand' => 'Midea',
+        'pk' => 0.5,
+        'price' => 140000,
+    ],
+    [
+        'name' => 'LG-11',
+        'brand' => 'LG',
+        'pk' => 1,
+        'price' => 200000,
+    ],
+    [
+        'name' => 'Sharp-12',
+        'brand' => 'Sharp',
+        'pk' => 2,
+        'price' => 210000,
+    ],
+    [
+        'name' => 'Panasonic-13',
+        'brand' => 'Panasonic',
+        'pk' => 0.5,
+        'price' => 220000,
+    ],
+    [
+        'name' => 'Samsung-14',
+        'brand' => 'Samsung',
+        'pk' => 1,
+        'price' => 230000,
+    ],
+    [
+        'name' => 'Daikin-15',
+        'brand' => 'Daikin',
+        'pk' => 2,
+        'price' => 240000,
+    ],
+    [
+        'name' => 'Gree-16',
+        'brand' => 'Gree',
+        'pk' => 0.5,
+        'price' => 250000,
+    ],
+    [
+        'name' => 'Polytron-17',
+        'brand' => 'Polytron',
+        'pk' => 1,
+        'price' => 260000,
+    ],
+    [
+        'name' => 'Electrolux-18',
+        'brand' => 'Electrolux',
+        'pk' => 2,
+        'price' => 270000,
+    ],
+    [
+        'name' => 'Aqua-19',
+        'brand' => 'Aqua',
+        'pk' => 0.5,
+        'price' => 280000,
+    ],
+    [
+        'name' => 'Midea-20',
+        'brand' => 'Midea',
+        'pk' => 1,
+        'price' => 290000,
+    ],
+];
+
+
+
+
+
+
+
+$list_services = [
+    [
+        'technician_id' => 2,
+        'client_id' => 6,
+        'ac_id' => 1,
+        'date' => date('Y-m-d', strtotime('1 Jun 2020')), // strtotime result : 1590969600, date result : 2020-06-01
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 3,
+        'client_id' => 7,
+        'ac_id' => 2,
+        'date' => date('Y-m-d', strtotime('1 May 2020')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 4,
+        'client_id' => 8,
+        'ac_id' => 3,
+        'date' => date('Y-m-d', strtotime('2 Jun 2020')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 5,
+        'client_id' => 9,
+        'ac_id' => 4,
+        'date' => date('Y-m-d', strtotime('3 March 2021')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 2,
+        'client_id' => 6,
+        'ac_id' => 5,
+        'date' => date('Y-m-d', strtotime('5 Dec 2021')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 3,
+        'client_id' => 7,
+        'ac_id' => 6,
+        'date' => date('Y-m-d', strtotime('25 Dec 2021')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 4,
+        'client_id' => 10,
+        'ac_id' => 7,
+        'date' => date('Y-m-d', strtotime('1 Jan 2022')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 5,
+        'client_id' => 11,
+        'ac_id' => 8,
+        'date' => date('Y-m-d', strtotime('2 Feb 2022')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 2,
+        'client_id' => 6,
+        'ac_id' => 9,
+        'date' => date('Y-m-d', strtotime('4 Apr 2022')),
+        'status' => 'finish',
+    ],
+    [
+        'technician_id' => 3,
+        'client_id' => 7,
+        'ac_id' => 10,
+        'date' => date('Y-m-d', strtotime('5 May 2023')),
+        'status' => 'on repair',
+    ],
+    [
+        'technician_id' => 4,
+        'client_id' => 12,
+        'ac_id' => 11,
+        'date' => date('Y-m-d', strtotime('6 Jun 2023')),
+        'status' => 'on repair',
+    ],
+    [
+        'technician_id' => 5,
+        'client_id' => 13,
+        'ac_id' => 12,
+        'date' => date('Y-m-d', strtotime('7 Jul 2023')),
+        'status' => 'on repair',
+    ],
+    [
+        'technician_id' => 2,
+        'client_id' => 6,
+        'ac_id' => 13,
+        'date' => date('Y-m-d', strtotime('8 Aug 2023')),
+        'status' => 'paid',
+    ],
+    [
+        'technician_id' => 3,
+        'client_id' => 7,
+        'ac_id' => 14,
+        'date' => date('Y-m-d', strtotime('9 Sep 2023')),
+        'status' => 'paid',
+    ],
+    [
+        'technician_id' => 4,
+        'client_id' => 14,
+        'ac_id' => 15,
+        'date' => date('Y-m-d', strtotime('10 Oct 2023')),
+        'status' => 'unpaid',
+    ],
+];

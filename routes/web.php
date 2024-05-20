@@ -9,11 +9,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::controller(UserController::class)->group(function() {
+Route::controller(UserController::class)->group(function () {
     Route::get("/users", "getUsers");
     Route::get("/user/create", "create");
     Route::get("/user/{id}", "detailUser");
     Route::post("/user", "store")->name("users.store");
+    Route::get("/user/{id}/edit", "edit");
+    Route::put("/user/{id}", "update")->name("users.update");
+    Route::delete("/user/{id}", "destroy")->name("users.destroy");
 });
 
 Route::resource("category", CategoryController::class);

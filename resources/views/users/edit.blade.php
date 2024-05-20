@@ -16,11 +16,12 @@
         @endforeach
     @endif
 
-    <form method="POST" action="{{ route('users.store') }}">
+    <form method="POST" action="{{ route('users.update', $user['id']) }}">
         @csrf
-        <input type="text" name="name" placeholder="Nama"><br>
-        <input type="email" name="email" placeholder="Email"><br>
-        <input type="password" name="password" placeholder="Password"><br>
+        @method('PUT')
+        <input type="text" name="name" placeholder="Nama" value="{{ $user['name'] }}"><br>
+        <input type="email" name="email" placeholder="Email" value="{{ $user['email'] }}"><br>
+        <input type="password" name="password" placeholder="Password" value=""><br>
         <input type="submit" value="Submit">
     </form>
 </body>
